@@ -1,0 +1,15 @@
+Add to numbers:
+step1:Start
+step2:declare a,b,c
+step3:c=a+b
+step4:print c
+step5:stop
+
+
+To find the greatest number :
+step1:start
+step2:declare a,b
+step3:if (a>b),then print a is greatest number
+step4:else
+step5:print b is the greatest number
+step6:stop
