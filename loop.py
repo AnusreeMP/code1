@@ -45,5 +45,37 @@
 #else:
      #print(s)
 
+#rev in for loop:
+
+#num=int(input("enter a number:"))
+#length=len(str(num))
+#rev=0
+#for i in range(length):
+ #    digit = num%10
+  #   rev = rev*10 + digit
+   #  num = num//10
+#print(rev)
+     
+num=int(input("enter a number:"))
+for i in range(1,num+1):
+   if i % 2 ==0:
+     print(i)
+
+
+num=int(input("enter a number:"))
+for i in range(1,11):
+    print(f""{i}*{num}={num*1})
+    
+    
+    
+
+    
+
+
+
+
+
+
 
      
+ 
