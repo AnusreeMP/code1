@@ -56,18 +56,45 @@
    #  num = num//10
 #print(rev)
      
-num=int(input("enter a number:"))
-for i in range(1,num+1):
-   if i % 2 ==0:
-     print(i)
+#num=int(input("enter a number:"))
+#for i in range(1,num+1):
+#  if i % 2 ==0:
+ #    print(i)
+
+#multiplication:
+#num=int(input("enter a number:"))
+#for i in range(1,11):
+    #print(f"{i}*{num}={num*1"})
 
 
-num=int(input("enter a number:"))
-for i in range(1,11):
-    print(f""{i}*{num}={num*1})
+#multiplication with limit:
+#num=int(input("enter a number:"))
+#j=int(input("enter a limit:"))
+#for i in range(1,j):
+#  print(f"{i}*{num}={num*1}")
+
+#reverse a string:
+#text=(input("enter a string:"))
+#reverse=""
+#for i in text:
+ #  reverse= i + reverse
+#print("reversed string is:",reverse)   
+
+
+#Nested loop:
+n=5
+for i in range(0,n):
+   for j in range(0,n-i):
+      print(" ",end=" ")
+
+
+   for k in range(0,i+1):
+       print("*",end=" ")  
+   print()
+
     
     
-    
+   
 
     
 
