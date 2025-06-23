@@ -81,18 +81,23 @@
 #print("reversed string is:",reverse)   
 
 
-#Nested loop:
-n=5
-for i in range(0,n):
-   for j in range(0,n-i):
-      print(" ",end=" ")
+#Nested loop:printing is output as 1 to 25:S
+# n=5
+# a=1
+# for i in range(0,n):
+#     for j in range(0,n):
+#        print(a,end=" ") 
+#        a=a+1
+#     print()
 
-
-   for k in range(0,i+1):
-       print("*",end=" ")  
-   print()
-
-    
+#for printing the output as 1 to 15:
+# n=5
+# a=1
+# for i in range(0,n):
+#    for j in range(0,i+1):
+#       print(a,end=" ") 
+#       a=a+1 
+#     print()   
     
    
 
