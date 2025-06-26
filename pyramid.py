@@ -128,7 +128,7 @@
 #   print()  
 
 #PASCAl'S Triangle Pattern:
-# n=4
+# n=7
 # for i in range(n):
 #   print(" " * (n-i), end="")
 #   num=1
@@ -138,15 +138,49 @@
 #   print()   
 
 
-#HOLLOW Full Pyramid:
+# HOLLOW Full Pyramid:
 n=5
 for i in range(n):
   print(" " * (n-i-1),end=" ")
-    for j in range(2*i+1):
+  for j in range(2*i+1):
       if j==0 or j==2*i or i==n-1:  
        print("*",end="") 
       else:
         print(" ",end="") 
-   print() 
+  print() 
 
 #HOLLOW Inverted Pyramid:
+# n=5
+# for i in range(n):
+#    print(" "*i,end="")
+#    for j in range(2*(n-i)-1):
+#        if j==0 or j==(2*(n-i)-2) or i==0:
+#            print("*",end="")
+#        else:
+#            print(" ",end="") 
+#    print()  
+
+#HOLLOW Diamond Pyramid:
+# n=4
+# for i in range(n):
+#   print(" " * (n-i-1),end="")  
+#   for j in range(2 * i + 1):
+#     if j==0 or j==2 * i:
+#       print("*",end="") 
+#     else:
+#       print(" ",end="") 
+#   print()
+# for i in range(n-2,-1,-1):
+#   print(" " * (n-i-1),end="")  
+#   for j in range(2*i+1):
+#      if j==0 or j==2*i:
+#         print("*",end="")
+#      else:
+#         print(" ",end="")  
+#   print()         
+
+
+# for i in range(65,70):
+#   for j in range(65,70):
+#     print(chr(j),end=" ")
+#   print()
