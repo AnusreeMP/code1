@@ -25,39 +25,91 @@
 #         break
 
 
-while True:
-    print("1.Registration")
-    print("2.Login")
-    print("3.Exit")
-    choice =int(input("enter the menu:"))
-    if choice==1:
-      a=input("enter the name:")
-      b=input("enter the age:")
-      if int (b) <= 18:
-        print("you are not eligible")
-        continue
-      c=input("enter the address:")
-      d=input("enter the phone number:")
-      if len(d)==10:
-        print("verified")
-      else:
-        print("Invalid")
-        break 
-      e=input("enter the username:")
-      f=input("enter the password:") 
-    elif choice==2:
-        g=input("enter the username:")
-        h=input("enter the password:") 
-        if g==e and h==f :
-          print("Login sucessfully") 
-          print("The Details")
-          print("name :",a)
-          print("age :",b)
-          print("address :",c)
-          print("phone number :",d)
-          print("username :",e)
-          print("password :",f)
-        else:
-          print("wrong username or password") 
-    elif choice==3:
-        break           
+# while True:
+#     print("1.Registration")
+#     print("2.Login")
+#     print("3.Exit")
+#     choice =int(input("enter the menu:"))
+#     if choice==1:
+#       a=input("enter the name:")
+#       b=input("enter the age:")
+#       if int (b) <= 18:
+    #     print("you are not eligible")
+    #     continue
+    #   c=input("enter the address:")
+    #   d=input("enter the phone number:")
+    #   if len(d)==10:
+    #     print("verified")
+    #   else:
+    #     print("Invalid")
+    #     break 
+    #   e=input("enter the username:")
+    #   f=input("enter the password:") 
+    # elif choice==2:
+    #     g=input("enter the username:")
+    #     h=input("enter the password:") 
+    #     if g==e and h==f :
+    #       print("Login sucessfully") 
+    #       print("The Details")
+    #       print("name :",a)
+    #       print("age :",b)
+    #       print("address :",c)
+    #       print("phone number :",d)
+    #       print("username :",e)
+    #       print("password :",f)
+    #     else:
+    #       print("wrong username or password") 
+    # elif choice==3:
+    #     break           
+
+
+#Indexing:
+# message='PYTHON IS FUN'
+# print(message.upper())
+
+
+#count ()eg:
+# txt="I love apples,apples are my favourite fruits"
+# x=txt.count("p")
+# print(x)
+
+
+#find()
+# message="Python is a fun programming language"
+# print(message.find('fun'))
+
+#replace()
+# text='bat ball'
+# replaced_text =text.replace('ba','ro')
+# print(replaced_text)
+
+
+#append
+# numbers=[21,34,54,12]
+# print("before Append:",numbers)
+# numbers.append(32)
+# print("after Append:",numbers)
+
+#insert
+# vowel=['a','e','i','u']
+# vowel.insert(3,'o')
+# print('List:',vowel)
+
+#extend
+# prime_numbers=[2,3,5]
+# print("List:",prime_numbers)
+# even_numbers=[4,6,8]
+# print("List2:",even_numbers)
+# prime_numbers.extend(even_numbers)
+# print("List after append:",prime_numbers)
+
+#example:
+a=[]
+b=int(input("Enter  how many numbers:"))
+for i in range(0,b):
+  value=int(input(" Enter your number:"))
+  if value % 2==0:
+    a.append(value)
+  else:
+    print("that's not an even number")
+print("Even numbers list:",a)  
