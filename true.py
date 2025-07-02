@@ -104,12 +104,47 @@
 # print("List after append:",prime_numbers)
 
 #example:
-a=[]
-b=int(input("Enter  how many numbers:"))
-for i in range(0,b):
-  value=int(input(" Enter your number:"))
-  if value % 2==0:
-    a.append(value)
-  else:
-    print("that's not an even number")
-print("Even numbers list:",a)  
+# a=[]
+# n=int(input("Enter the range:"))
+# for i in range(0,n):
+#   if i%2==0:
+#     a.append(i)
+# print("list",a) 
+
+
+#removing an item from a list:
+# prime_numbers=[2,3,5,7]
+# removed_element=prime_numbers.pop(2)
+# print('Removed Element:',removed_element)
+# print('Updated List:',prime_numbers)
+
+
+#remove odd numbers with pop element
+# a=[1,2,3,4,5,6,7,8,9,10]
+# for i in range(len(a)):
+#   if i<=len(a)-1:
+#     if a[i]%2!=0:
+#       a.pop(i)
+# print("List=",a)
+
+
+x=[]
+while True:
+  print("1.ADD")
+  print("2.REMOVE")
+  choice=int(input("Enter your choice:"))
+  if choice==1:
+    a=int(input("Enter a number:"))
+    x.append(a)
+    print(x)
+    
+  elif choice==2:
+    b=int(input("Enter a value you want to remove:"))  
+    for i in range(len(x)):
+      if i<=len(x)-1:
+        if x[i]==b:
+         x.pop(i) 
+         print(x)
+        
+
+  
