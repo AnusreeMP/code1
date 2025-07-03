@@ -127,24 +127,129 @@
 #       a.pop(i)
 # print("List=",a)
 
-
-x=[]
-while True:
-  print("1.ADD")
-  print("2.REMOVE")
-  choice=int(input("Enter your choice:"))
-  if choice==1:
-    a=int(input("Enter a number:"))
-    x.append(a)
-    print(x)
+#pop example:
+# x=[]
+# while True:
+#   print("1.ADD")
+#   print("2.REMOVE")
+#   choice=int(input("Enter your choice:"))
+#   if choice==1:
+#     a=int(input("Enter a number:"))
+#     x.append(a)
+#     print(x)
     
-  elif choice==2:
-    b=int(input("Enter a value you want to remove:"))  
-    for i in range(len(x)):
-      if i<=len(x)-1:
-        if x[i]==b:
-         x.pop(i) 
-         print(x)
-        
+#   elif choice==2:
+#     b=int(input("Enter a value you want to remove:"))  
+#     for i in range(len(x)):
+#       if i<=len(x)-1:
+#         if x[i]==b:
+#          x.pop(i) 
+#          print(x)
 
-  
+
+#del():used for removing one or more items from a list
+# languages=['Python','Swift','C++','C','Java','Rust','R']
+# del languages[1]
+# print(languages) 
+# del languages[-1] 
+# print(languages) 
+# del languages[0:2] 
+# print(languages)   
+
+
+#Remove()
+# languages=['Python','Swift','C++','C','Java','Rust','R']
+# languages.remove('Python')
+# print(languages)
+
+#reverse():
+# prime_numbers=[2,3,5,7]
+# prime_numbers.reverse()
+# print('Reversed List:',prime_numbers)
+
+
+#Repetition:
+# list1=[12,14,16,18,20] 
+# print(list1 * 2)
+
+#Concatenation:
+# list1=[12,14,16,18,20]
+# list2=[9,10,32,54,86]
+# print(list1+list2)
+
+
+#length:
+# list1=[12,14,16,18,19,23,17,30]
+# print (len(list1))
+
+
+#Iteration:
+# list=[12,14,15,16,17]
+# for i in list:
+#   print(i)
+
+# list2=['jonn','david','sam','alen']
+# for i in list2:
+#   print(i)
+
+#Membership
+# list1=[100,200,500,700]
+# print(600 in list1)
+# print(400 in list1)
+
+#Max():
+# list1=[103,675,897,200,543]
+# print(max(list1))
+
+# list2=['alen','sam',',dheiha','kiyaa']
+# print(max(list2))
+
+
+#Min()
+# list1=[103,657,321,786,900]
+# print(min(list1))
+
+
+#Intersection()
+# list1=[1,2,3,4,5]
+# list2=[3,4,5,6,7] 
+# #using intersection() method:
+# intersection1=set(list1).intersection(list2)
+# print(intersection1)
+
+#using & operator:
+# intersection2=set(list1)&set(list2)
+# print(intersection2)
+
+#example:
+# a=[1,2,3,4,5]
+# b=[3,4,5,6,7]
+# c=[]
+# for i in range(len(a)):
+#   for j in range(len(b)):
+#     if a[i]==b[j]:
+#         c.append(b[j])
+# print(c)
+
+#Max and Min with loop:
+# data=['david','alen','sam']
+# b=data[0]
+# c=data[0]
+# for v in data[1:]:
+#     if v > b:
+#       b=v
+#     if v < c:
+#       c=v  
+# print("maximum:",b)
+# print("minimum:",c)
+
+a=[100,300,675,897,245]
+b=a[0]
+c=a[0]
+for v in a[1:]:
+    if v > b:
+      b=v
+    if v < c:
+      c=v  
+print("maximum:",b)
+print("minimum:",c)
