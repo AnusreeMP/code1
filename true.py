@@ -232,7 +232,7 @@
 # print(c)
 
 #Max and Min with loop:
-# data=['david','alen','sam']
+# data=['david','alen','samjohn']
 # b=data[0]
 # c=data[0]
 # for v in data[1:]:
@@ -243,13 +243,81 @@
 # print("maximum:",b)
 # print("minimum:",c)
 
-a=[100,300,675,897,245]
-b=a[0]
-c=a[0]
-for v in a[1:]:
-    if v > b:
-      b=v
-    if v < c:
-      c=v  
-print("maximum:",b)
-print("minimum:",c)
+
+#Min and Max with numbers :
+# a=[100,300,675,897,245]
+# b=a[0]
+# c=a[0]
+# for v in a[1:]:
+#     if v > b:
+#       b=v
+#     if v < c:
+#       c=v  
+# print("maximum:",b)
+# print("minimum:",c)
+
+
+#List Comprehension:
+# numbers=[1,2,3,4,5]
+# a=[x**2 for x in numbers]
+# print(a)
+
+#list comprehension with iteration:
+# list=[character]
+
+
+#Matrix using list comprehension:
+# matrix=[[j  for j in range(3)]for i in range(3)]
+# print(matrix)
+
+
+
+#Tuple:
+
+#creating tuple:
+# Tuple_data=(0,1,2,3,2,3,1,3,2)
+# print(Tuple_data)
+
+#Empty tuple:
+# my_tuple=()
+# print(my_tuple)
+
+#nested tuple:
+# my_tuple=("mouse",[8,4,6],(1,2,3))
+# print(my_tuple)
+
+#indexing:
+# letters=("p","y","t","h","o","n")
+# print(letters[-1])
+# print(letters[-5])
+
+#slicing:
+# my_tuple=('p','y','t','h','o','n')
+# print(my_tuple[:])
+
+
+#repetition Tuples:
+# tuple_=("python",tuple)
+# print("original tuple is:",tuple_)
+# tuple_=tuple_*3
+# print("New tuple is:",tuple_)
+
+#Tuple methods:
+# my_tuple=('a','p','p','l','e')
+# print(my_tuple.count('p'))
+# print(my_tuple.index('l'))
+
+
+#Iteration through a tuple:
+# languages=('python','swift','c++')
+# for language in languages:
+#   print(language)
+
+#Check if an item exists in the tuple:
+languages=('python','c','c++')
+print( 'C' in languages)
+print('python' in languages)
+
+
+
+
