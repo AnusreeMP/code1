@@ -314,9 +314,12 @@
 #   print(language)
 
 #Check if an item exists in the tuple:
-languages=('python','c','c++')
-print( 'C' in languages)
-print('python' in languages)
+# languages=('python','c','c++')
+# print( 'C' in languages)
+# print('python' in languages)
+
+
+
 
 
 
