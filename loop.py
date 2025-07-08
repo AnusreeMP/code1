@@ -98,6 +98,40 @@
 #       print(a,end=" ") 
 #       a=a+1 
 #     print()   
+
+#practice:
+#write a program to find the factorial of a number given by the user:
+# n=int(input("Enter the numbers:"))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i 
+ 
+# print(f"Factorial of {n} is {fact}")    
+
+#In while loop:
+# n=int(input("Enter the numbers:"))
+# fact=1
+# i=1
+# while i<=n:
+#     fact*=i
+#     i+=1
+# print(f"Factorial of {n} is {fact}")   
+
+#for enter a number to their range:
+# n=int(input("Enter the number:"))
+# count=1
+# while count <=n:
+#     print(count,end=" ")
+#     count+=1
+
+
+
+
+
+    
+
+
+    
     
    
 

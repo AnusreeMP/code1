@@ -86,10 +86,11 @@
 # print(vowels)       
 
 #program4:
-words=["apple","orange","grapes","kiwi","dog","beach"]
-for word in words:
-    if len(set(word)) == len(word):
-        print(word)
+# words=["apple","orange","grapes","kiwi","dog","beach"]
+# for word in words:
+#     if len(set(word)) == len(word):
+#         print(word)
+
 
 
 
