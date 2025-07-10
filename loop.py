@@ -124,6 +124,18 @@
 #     print(count,end=" ")
 #     count+=1
 
+#Multiplication table using while loop:
+# num=5
+# i=1
+# while i<=10:
+#     product=num*i
+#     print(f"{num}*{i}={product}")
+#     i+=1
+
+
+
+
+
 
 
 
