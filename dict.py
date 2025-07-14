@@ -43,6 +43,8 @@
 # values=['Alice',30,'New York']
 # my_dict=dict(zip(keys,values))
 # print(my_dict)
+ 
+        #Functions:
 
 #Function: example of user defined function:
 # def square(num):
@@ -98,12 +100,32 @@
 # function(30)
 
 # 2.Keyword Arguments:
-def function(n1,n2=20):
-   print("number 1 is:",n1)
-   print("number 2 is:",n2)
-print("Without using keyword")
-function(n1=50,n2=30)
+# def function(n1,n2=20):
+#    print("number 1 is:",n1)
+#    print("number 2 is:",n2)
+# print("Without using keyword")
+# function(n1=50,n2=30)
 
+# def is_even(num):
+#    if num%2==0:
+#        print(num,"is even")
+#    else:
+#        print(num,"is odd")  
+
+# a=int(input("Enter the number:")) 
+# is_even(a)       
+
+
+
+def Factorial(num):
+   fact=1
+   for i in range(1,num+1):
+      fact=fact*i
+   return fact
+
+n=int(input("Enter a number:"))
+f=Factorial(n)
+print(f"Factorial of {n} is {f}")
 
 
 
