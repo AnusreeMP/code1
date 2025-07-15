@@ -116,17 +116,84 @@
 # is_even(a)       
 
 
+#Function example: with factorial
+# def Factorial(num):
+#    fact=1
+#    for i in range(1,num+1):
+#       fact=fact*i
+#    return fact
 
-def Factorial(num):
-   fact=1
-   for i in range(1,num+1):
-      fact=fact*i
-   return fact
-
-n=int(input("Enter a number:"))
-f=Factorial(n)
-print(f"Factorial of {n} is {f}")
+# n=int(input("Enter a number:"))
+# f=Factorial(n)
+# print(f"Factorial of {n} is {f}")
 
 
+#Function example 2:with leap year
+# def is_leap_year(year):
+#    if(year%4==0 & year%100!=0) or (year% 400==0):
+#       return True
+#    else:
+#       return False
+
+# year=int(input("Enter a year:"))
+# if is_leap_year(year):
+#    print("It is a leap year")
+# else:
+#    print("It's not a leap year")  
+
+
+#simply displaying :
+# def Display(name,age):
+#     print(f"My name is {name} Iam {age} years old")
+
+# Display(name="Ebin",age=27)  
+
+#with **a print as dict:
+# def Display(**a):
+#   # print(a)
+#   print(f"Hi {a['name']} Welcome to{a['course']} course")
+
+# Display(name="Ebin",course="Python")  
+
+def ADDITION(x,y):
+   ans=x+y
+   print(ans)
+
+def SUBTRACTION(x,y):
+   ans=x-y
+   print(ans)
+
+def MULTIPLICATION(x,y):
+    ans=x*y
+    print(ans)
+
+def DIVISION(x,y):
+     ans=x/y
+     print(ans)
+while True:
+    print("1 .ADDITION")
+    print("2 .SUBTRACTION")
+    print("3 .MULTIPLICATION")
+    print("4 .DIVISION")
+    print("5.EXIT")
+    choice = int(input("Enter your choice:"))
+    if choice ==1:
+      a=int(input("enter the first number:"))  
+      b=int(input("enter the second number:"))
+      ADDITION(a,b)
+    elif choice ==2:
+        a=int(input("enter the first number:"))
+        b=int(input("enter the second number:"))
+        SUBTRACTION(a,b)
+    elif choice ==3:
+        a=int(input("enter the first number:"))
+        b=int(input("enter the second number:"))
+        MULTIPLICATION(a,b)
+    elif choice==4:
+        a=int(input("enter the first number:"))
+        b=int(input("enter the second number:"))
+        DIVISION(a,b)
+    elif choice==5:
+        break
 
 
