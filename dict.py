@@ -155,45 +155,68 @@
 
 # Display(name="Ebin",course="Python")  
 
-def ADDITION(x,y):
-   ans=x+y
-   print(ans)
 
-def SUBTRACTION(x,y):
-   ans=x-y
-   print(ans)
+#Calculator using Functions:
+# def ADDITION(x,y):
+#    ans=x+y
+#    print(ans)
 
-def MULTIPLICATION(x,y):
-    ans=x*y
-    print(ans)
+# def SUBTRACTION(x,y):
+#    ans=x-y
+#    print(ans)
 
-def DIVISION(x,y):
-     ans=x/y
-     print(ans)
-while True:
-    print("1 .ADDITION")
-    print("2 .SUBTRACTION")
-    print("3 .MULTIPLICATION")
-    print("4 .DIVISION")
-    print("5.EXIT")
-    choice = int(input("Enter your choice:"))
-    if choice ==1:
-      a=int(input("enter the first number:"))  
-      b=int(input("enter the second number:"))
-      ADDITION(a,b)
-    elif choice ==2:
-        a=int(input("enter the first number:"))
-        b=int(input("enter the second number:"))
-        SUBTRACTION(a,b)
-    elif choice ==3:
-        a=int(input("enter the first number:"))
-        b=int(input("enter the second number:"))
-        MULTIPLICATION(a,b)
-    elif choice==4:
-        a=int(input("enter the first number:"))
-        b=int(input("enter the second number:"))
-        DIVISION(a,b)
-    elif choice==5:
-        break
+# def MULTIPLICATION(x,y):
+#     ans=x*y
+#     print(ans)
+
+# def DIVISION(x,y):
+#      ans=x/y
+#      print(ans)
+# while True:
+#     print("1 .ADDITION")
+#     print("2 .SUBTRACTION")
+#     print("3 .MULTIPLICATION")
+#     print("4 .DIVISION")
+#     print("5.EXIT")
+#     choice = int(input("Enter your choice:"))
+#     if choice ==1:
+#       a=int(input("enter the first number:"))  
+#       b=int(input("enter the second number:"))
+#       ADDITION(a,b)
+#     elif choice ==2:
+#         a=int(input("enter the first number:"))
+#     b=int(input("enter the second number:"))
+#     SUBTRACTION(a,b)
+# elif choice ==3:
+#     a=int(input("enter the first number:"))
+#     b=int(input("enter the second number:"))
+#     MULTIPLICATION(a,b)
+# elif choice==4:
+#     a=int(input("enter the first number:"))
+#     b=int(input("enter the second number:"))
+#     DIVISION(a,b)
+# elif choice==5:
+#     break
+
+#Factorial using  recursion:
+# def Fact(num):
+#     if num==1:
+#         return num
+#     else:
+#         return num*Fact(num-1)
+# print(Fact(5))           
+
+# def Fun():
+#     print("hello")
+#     Fun()
+# Fun()
+
+first,second=0,1
+print(first,second,end=" ")
+for j in range(8):
+    third=first+second
+    print(third,end=" ")
+    first,second=second,third
+
 
 

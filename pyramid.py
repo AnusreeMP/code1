@@ -193,4 +193,19 @@
 #       print("*",end="")
 #     else:
 #       print(" ",end="")  
-#   print()    
+#   print() 
+
+#numbers from 1 to 5 left aligned:
+# for i in range(1,6):
+#   for j in range(1,i+1):
+#     print(j,end=" ")
+#   print(" ")  
+
+#left aligned from 1 to 15 like adding the numbers in each rows(eg:2 ,2+2=4,3 3+3=6etc):
+# for r in range(1,6):
+#   num=r
+#   for s in range(1,r+1):
+#     print(num,end=" ")
+#     num+=r
+#   print(" ")
+

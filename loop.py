@@ -81,7 +81,7 @@
 #print("reversed string is:",reverse)   
 
 
-#Nested loop:printing is output as 1 to 25:S
+#Nested loop:printing is output as 1 to 25:
 # n=5
 # a=1
 # for i in range(0,n):
