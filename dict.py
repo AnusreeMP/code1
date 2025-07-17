@@ -204,19 +204,21 @@
 #         return num
 #     else:
 #         return num*Fact(num-1)
-# print(Fact(5))           
-
+# print(Fact(5))  
+         
+#sample prgm for repeated calling of function:
 # def Fun():
 #     print("hello")
 #     Fun()
 # Fun()
 
-first,second=0,1
-print(first,second,end=" ")
-for j in range(8):
-    third=first+second
-    print(third,end=" ")
-    first,second=second,third
+#fibonacci series:
+# first,second=0,1
+# print(first,second,end=" ")
+# for j in range(8):
+#     third=first+second
+#     print(third,end=" ")
+#     first,second=second,third
 
 
 
