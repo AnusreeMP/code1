@@ -222,3 +222,11 @@
 
 
 
+#reverse of string using slicing:
+# def Rev(s):
+#     if len(s)==0:
+#         return s
+#     else:
+#         return Rev(s[1:])+s[0]
+# print(Rev("Java"))
+    
