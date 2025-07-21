@@ -26,7 +26,8 @@
 #without function :
 #print(list(filter(lambda num:True if num%2==0 else False,numbers)))  
 
-from functools import reduce
-s=reduce(lambda a,b:a*b,range(1,6)) 
-print(s)
+# lambda using reduce method  Factorial:
+# from functools import reduce
+# s=reduce(lambda a,b:a*b,range(1,6)) 
+# print(s)
 
