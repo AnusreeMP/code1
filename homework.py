@@ -31,4 +31,16 @@ def rev(s):
         return s
     else:    
         return rev(s[1:])+s[0]
-print(rev("Java"))        
+print(rev("Java"))  
+
+
+
+                        #Lambda functions
+
+#To find the square of a number:
+f=lambda a:a*a                      
+print(type(f))
+print(f(3))
+
+#To check if a number is even or odd :
+
