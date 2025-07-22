@@ -1,0 +1,34 @@
+#Homework:
+
+#Recursive function to print numbers from n to 1:
+
+# def print_numbers(n):
+#     if n == 0:
+#         return 1
+#     c
+# print_numbers(3)
+
+#Recursive function to calculate the sum of first n natural numbers:
+# def sum(n):
+#     if n == 0:
+#         return 0
+#     else:
+#        print(n)
+#        return n+sum(n-1)
+# print(sum(3))
+
+#Recursive function to find the sum of digits of number:
+def sum(n):
+    if n == 0:
+        return 0
+    else:
+        return n % 10 + sum(n//10)
+ #print(sum(52))
+
+#Recursive function to Reverse a string:
+def rev(s):
+    if len(s)==0:
+        return s
+    else:    
+        return rev(s[1:])+s[0]
+print(rev("Java"))        

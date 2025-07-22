@@ -181,7 +181,7 @@
 #     choice = int(input("Enter your choice:"))
 #     if choice ==1:
 #       a=int(input("enter the first number:"))  
-#       b=int(input("enter the second number:"))
+#       b=int(input("enter the second number:"))    
 #       ADDITION(a,b)
 #     elif choice ==2:
 #         a=int(input("enter the first number:"))
