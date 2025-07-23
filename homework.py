@@ -31,7 +31,7 @@ def rev(s):
         return s
     else:    
         return rev(s[1:])+s[0]
-print(rev("Java"))  
+#print(rev("Java"))  
 
 
 
@@ -40,7 +40,20 @@ print(rev("Java"))
 #To find the square of a number:
 f=lambda a:a*a                      
 print(type(f))
-print(f(3))
+#print(f(3))
 
 #To check if a number is even or odd :
+even_odd=lambda x:"Even"if x%2==0 else"Odd"
+# print(even_odd(5))
+# print(even_odd(8))
+
+#To find maximum of two numbers:
+#max=lambda a,b,:a if a>b else b
+#print("Maximum:",max(10,20))
+
+# To check if a string starts with letter 'A' :
+start_with_a=lambda s: s.lower().startswith('a')
+print(start_with_a('Apple'))
+print(start_with_a('apple'))
+
 
