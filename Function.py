@@ -22,12 +22,15 @@ def count(s):
 #print(count("hello python"))
 
 #define a function that accepts a list and returns a new list with only even numbers:
-#def list1(even):
-
+# def even(list):
+#     return[x for x in list if x%2==0]
+# print(even([10,21,31,42]))
 
 
 #calculates the power of a number without using (** or pow):
-def power(num):
-    
-    return num
-print(power(6))   
+# def power(a,b):
+#     num=1
+#     for i in range(b):
+#         num=num*a   
+#     return num
+# print(power(2,3))   
