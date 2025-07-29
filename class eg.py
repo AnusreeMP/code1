@@ -75,18 +75,90 @@
 
 
 #POLYMORPHISM:
-class Bank:
-    def getroi(self):
-        return 10
-class SBI(Bank):
-    def getroi(self):
-        return 7
-class ICICI(Bank):
-    def getroi(self):
-        return 8        
-b1=Bank()
-b2=SBI()
-b3=ICICI()
-print("Bank Rate if interest:",b1.getroi())
-print("SBI Rate if interest:",b2.getroi())
-print("ICICI Rate if interest:",b3.getroi())
+# class Bank:
+#     def getroi(self):
+#         return 10
+# class SBI(Bank):
+#     def getroi(self):
+#         return 7
+# class ICICI(Bank):
+#     def getroi(self):
+#         return 8        
+# b1=Bank()
+# b2=SBI()
+# b3=ICICI()
+# print("Bank Rate if interest:",b1.getroi())
+# print("SBI Rate if interest:",b2.getroi())
+# print("ICICI Rate if interest:",b3.getroi())
+
+#example 2:
+# class Bird:
+    # def intro(self):
+    #     print("There are many types of birds.")
+#     def flight(self):
+#         print("Most of the birds can fly but some cannot.") 
+# class sparrow(Bird):
+#     def flight(self):
+#         print("Sparrows can fly.") 
+# class ostrich(Bird):
+#     def flight(self):
+#         print("Ostriches cannot fly.")
+# obj_bird=Bird()
+# obj_spr=sparrow()
+# obj_ost=ostrich()
+# obj_bird.intro()
+# obj_bird.flight()
+# obj_spr.intro()
+# obj_spr.flight()
+# obj_ost.intro()
+# obj_ost.flight()    
+
+#Encapsulation:
+#Protected members:
+# class Base:
+#     def __init__(self):
+#         self._a=2
+# class Derived(Base):
+#     def __init__(self):
+#         Base.__init__(self)
+#         print("Calling protected member of base class:",self._a)
+#         self._a=3
+#         print("Calling modified protected members outside class:",self._a)
+# obj=Derived()
+
+# obj2=Base()
+# print("Acessing protected member of obj1:",obj._a)
+# print("Acessing protected members of obj2:",obj2._a)
+
+#2 Private members:
+# class Base:
+#     def __init__(self):
+#         self.a="Hello"
+#         self.__c="World"
+# class Derived(Base):
+#     def __init__(self):
+#         Base.__init__(self)
+#         print("calling private member of base class:") 
+#         print(self.__c)
+# obj1=Base()
+# print(obj1.c)
+# obj2=Derived()
+
+#Data Abstraction:
+from abc import ABC
+class Animal(ABC):
+    def make_sound(self):
+        pass
+class Dog(Animal):
+    def make_sound(self):
+        return"Woof!"
+class cat(Animal):
+    def make_sound(self):
+        return"Meow!"
+dog=Dog()
+cat=cat()
+print(dog.make_sound())
+print(cat.make_sound())        
+
+
+
