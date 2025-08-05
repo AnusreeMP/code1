@@ -19,9 +19,9 @@
 # f=open("demo.py","r")
 # print(f.read(5))
 
-with open("demo.py","r") as f:
-    data=f.readlines()
-    for line in data:
-        word=line.split()
-        print(word)
+# with open("demo.py","r") as f:
+#     data=f.readlines()
+#     for line in data:
+#         word=line.split()
+#         print(word)
 

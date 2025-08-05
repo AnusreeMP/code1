@@ -4,6 +4,8 @@ def generate_Square(lst):
 num_list=list(range(1,5))
 gen=generate_Square(num_list)
 for n in gen:
-    print(n)        
+    print(n) 
+
+
 
 
